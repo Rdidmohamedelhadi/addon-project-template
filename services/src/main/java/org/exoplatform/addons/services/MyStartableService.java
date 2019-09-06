@@ -16,14 +16,14 @@ public class MyStartableService implements Startable {
    */
   private static final Log LOG = ExoLogger.getExoLogger(MyStartableService.class);
 
+  public MyStartableService() {
+
+  }
+
   @Override
   public void start() {
     LOG.info("&&&&&&&&&&&& My Startable service started !");
-    /*PortalContainer portalContainer = (PortalContainer) ExoContainerContext.getCurrentContainer();
-    LOG.info("&&&&&&&&&&&& Getting an instance of MyService !");
-    MyService myService = (MyService) portalContainer.getComponentInstance(MyService.class);
-    LOG.info("&&&&&&&&&&&& Calling function call of MyService !");
-    myService.call();*/
+
   }
 
   @Override

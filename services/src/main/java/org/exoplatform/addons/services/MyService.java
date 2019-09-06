@@ -15,13 +15,15 @@ public class MyService {
    * The logger.
    */
   private static final Log LOG = ExoLogger.getExoLogger(MyService.class);
-
-
+  private String message="alioua";
   public MyService() {
-     LOG.info("##################### Simple service started successfully !!");
   }
 
-  public void call() {
-    LOG.info("######################  call function invoked !!");
+  public String getMessage() {
+
+
+    return message;
   }
+
+
 }

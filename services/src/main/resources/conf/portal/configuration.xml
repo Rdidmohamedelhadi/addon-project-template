@@ -25,4 +25,13 @@
     <component>
         <type>org.exoplatform.commons.persistence.impl.EntityManagerService</type>
     </component>
+    <component>
+        <type>org.exoplatform.addons.services.MyService</type>
+    </component>
+    <component>
+        <type>org.exoplatform.addons.services.MyStartableService</type>
+    </component>
+    <component>
+        <type>org.exoplatform.addons.test.MyStartableServiceTest</type>
+    </component>
 </configuration>
